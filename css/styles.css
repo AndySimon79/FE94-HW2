@@ -1,20 +1,24 @@
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color:#434455;
     background-color: #FFFFFF;
 }
 
 .header-logo{
-color:#2E2F42;
-font-family: Raleway;
+    olor: #4D5AE5;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
-.header-logo-color{
-    color:#4D5AE5;
+.header-logo-item{
+color: #2E2F42;
+}
+
+.header-address{
+    font-style: normal;
 }
 
 .list{
@@ -54,6 +58,7 @@ letter-spacing: 0.02em;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 .hero-btn{
     color: #FFF;
@@ -63,6 +68,7 @@ letter-spacing: 0.02em;
     line-height: 1.5;
     letter-spacing: 0.04em;
     background-color: #4D5AE5;
+    
 }
 .visually-hidden {
     position: absolute;
@@ -141,8 +147,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer-logo{
-color: #F4F4FD;
-font-family: Raleway;
+color:#4D5AE5;
+font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
 line-height: 1.17;
@@ -150,19 +156,20 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
     }
 .footer-logo-color{
-        color:#4D5AE5;
+        color:#F4F4FD;
     }
 
     /*-------------- PORTFOLIO PAGE ------------*/
 
 .all-btn{
 color: #FFF;
-font-family: Roboto;
+font-family: inherit;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #404BBF;
+cursor: pointer;
 }
 .top-btn{
 color:#4D5AE5;
@@ -172,6 +179,7 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 background-color: #F4F4FD;
+cursor: pointer;
 }
 
 .portfolio-list{
