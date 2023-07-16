@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
+    color:#434455;
+    background-color: #FFFFFF;
 }
 
 .header-logo{
@@ -47,7 +49,6 @@ letter-spacing: 0.02em;
 }
 .hero-title{
     color: #FFF;
-    text-align: center;
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -156,7 +157,6 @@ text-transform: uppercase;
 
 .all-btn{
 color: #FFF;
-text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -166,7 +166,6 @@ background-color: #404BBF;
 }
 .top-btn{
 color:#4D5AE5;
-text-align: center;
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
