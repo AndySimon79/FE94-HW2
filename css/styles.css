@@ -1,11 +1,20 @@
+:root{
+    --slate: #434455;
+    --navyblue: #2E2F42;
+    --white: #FFFFFF;
+    --iris: #4D5AE5;
+    --cloud:#F4F4FD;
+    --ocean: #404bbf;
+}
+
 body{
     font-family: "Roboto", sans-serif;
-    color:#434455;
-    background-color: #FFFFFF;
+    color: var(--slate);
+    background-color: var(--white);
 }
 
 .header-logo{
-color: #4D5AE5;
+color: var(--iris);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -15,7 +24,7 @@ text-transform: uppercase;
 }
 
 .header-logo-item{
-color: #2E2F42;
+color: var(--navyblue);
 }
 
 .header-address{
@@ -34,7 +43,7 @@ list-style-type: none;
 */
 
 .header-menu-list{
-color:#2E2F42;
+color: var(--navyblue);
 font-family: Roboto;
 font-size: 16px;
 font-weight: 500;
@@ -44,21 +53,21 @@ letter-spacing: 0.02em;
 
 .header-menu-item:hover,
 .header-menu-item:focus{
-    color: #404bbf;
+    color: var(--ocean);
 }
 
 .header-list-item{
-color:#434455;
+color: var(--slate);
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .hero{
-    background-color:  #2E2F42;
+    background-color: var(--navyblue);
 }
 .hero-title{
-    color: #FFF;
+    color: var(--white);
     font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
@@ -67,19 +76,19 @@ letter-spacing: 0.02em;
     text-align: center;
 }
 .hero-btn{
-    color: #FFF;
+    color: var(--white);
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color: #4D5AE5;
+    background-color: var(--iris);
     cursor: pointer;
 }
 
 .hero-btn:hover,
 .hero-btn:focus{
-    background-color: #404BBF;
+    background-color: var(--ocean);
 }
 
 
@@ -98,7 +107,7 @@ letter-spacing: 0.02em;
   }
 
 .advantages-subtitle{
-color: #2E2F42;
+color: var(--navyblue);
 font-family: Roboto;
 font-size: 20px;
 font-weight: 500;
@@ -107,7 +116,7 @@ letter-spacing: 0.02em;
 }
 
 .advantages-item-text{
-color: #434455;
+color: var(--slate);
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5;
@@ -115,7 +124,7 @@ letter-spacing: 0.02em;
 }
 
 .subtitle{
-color: #2E2F42;
+color: var(--navyblue);
 text-align: center;
 font-family: Roboto;
 font-size: 36px;
@@ -126,7 +135,7 @@ text-transform: capitalize;
 }
 
 .team-name{
-    color:#2E2F42;
+    color:var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -135,7 +144,7 @@ text-transform: capitalize;
 }
 
 .team-name-position{
-color:#434455;
+color: var(--slate);
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5;
@@ -143,24 +152,24 @@ letter-spacing: 0.02em;
 }
 
 .team{
-    background-color: #F4F4FD;
+    background-color: var(--cloud);
 }
 .team-menu-item{
-    background-color: #FFF;
+    background-color: var(--white);
  }
 
 .footer-header{
-    background-color: #2E2F42;
+    background-color: var(--navyblue);
 }
 .footer-text{
-color:#F4F4FD;
+color: var(--cloud);
 font-family: Roboto;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
 .footer-logo{
-color:#4D5AE5;
+color: var(--iris);
 font-family: "Raleway", sans-serif;
 font-size: 18px;
 font-weight: 800;
@@ -169,31 +178,31 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
     }
 .footer-logo-color{
-        color:#F4F4FD;
+        color:var(--cloud);
     }
 
     /*-------------- PORTFOLIO PAGE ------------*/
 
 .menu-button:hover,
 .menu-button:focus{
-    color: #FFFFFF;
-    background-color: #404BBF;
+    color: var(--white);
+    background-color: var(--ocean);
     cursor: pointer;
 }
 
 .menu-button{
-    color: #4D5AE5;
+    color: var(--iris);
     font-family: inherit;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;  
-    background-color: #F4F4FD; 
+    background-color: var(--cloud); 
 }
 
 
 .portfolio-list{
-    color: #2E2F42;
+    color: var(--navyblue);
     font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
@@ -202,7 +211,7 @@ text-transform: uppercase;
 }
 
 .portfolio-item{
-    color: #434455;
+    color: var(--slate);
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
