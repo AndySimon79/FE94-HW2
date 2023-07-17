@@ -13,6 +13,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 .header-logo-item{
 color: #2E2F42;
 }
@@ -29,9 +30,9 @@ list-style-type: none;
     text-decoration: none;
 }
 /* ul{ 
-    list-style-type:none;
+    list-style-type:none;}
 */
-}
+
 .header-menu-list{
 color:#2E2F42;
 font-family: Roboto;
@@ -201,7 +202,7 @@ text-transform: uppercase;
 }
 
 .portfolio-item{
-    color: #434455);
+    color: #434455;
     font-family: Roboto;
     font-size: 16px;
     line-height: 1.5;
